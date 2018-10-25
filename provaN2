@@ -1,0 +1,7 @@
+start
+SC_temperature = bath temperature
+   IF SC_temperature = 4
+     THEN stand-by
+     ELSE produce protein
+   ENDIF
+end
